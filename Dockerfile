@@ -32,7 +32,6 @@ ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
 ENV GEM_PATH /home/fluent/.gem/ruby/2.3.0:$GEM_PATH
 
 ADD fluent.conf /home/fluent/fluent.conf
-ADD plugins /home/fluent/plugins
 ADD entrypoint.sh /entrypoint.sh
 
 EXPOSE 24224 5140
