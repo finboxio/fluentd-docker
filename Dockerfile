@@ -3,7 +3,7 @@ FROM alpine:3.4
 ENV FLUENTD_OPT= \
     FLUENTD_CONF=fluent.conf \
     FLUENTD_DATA_DIR=/home/fluent \
-    FLUENTD_VERSION=0.14.4
+    FLUENTD_VERSION=0.14.6
 
 RUN apk --no-cache add \
         build-base \
